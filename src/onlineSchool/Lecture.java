@@ -4,6 +4,8 @@ public class Lecture {
    public String lectureOne;
     public String lectureTwo;
     public String lectureThree;
+    public String lectureFour4;
+
     public static long ID=0;
   //  String lectureOne = new Lecture();
     //String lectureTwo = new Lecture();
@@ -19,10 +21,14 @@ public class Lecture {
 
 
 
-    public Lecture(String lectureOne, String lectureTwo, String lectureThree) {
+
+    public Lecture(String lectureOne, String lectureTwo, String lectureThree, String lectureFour4) {
         this.lectureOne = lectureOne;
         this.lectureTwo = lectureTwo;
         this.lectureThree = lectureThree;
-    }
 
+        this.lectureFour4 = lectureFour4;
+
+
+    }
 }
